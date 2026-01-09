@@ -31,7 +31,9 @@
         "version:major": "npm version major && git push --follow-tags",
         "yalc:link": "yalc add @sklv-labs/ts-dev-configs",
         "yalc:update": "yalc update @sklv-labs/ts-dev-configs",
-        "yalc:remove": "yalc remove @sklv-labs/ts-dev-configs"
+        "yalc:remove": "yalc remove @sklv-labs/ts-dev-configs",
+        "yalc:publish": "yalc publish",
+        "yalc:push": "npm run build && yalc push"
     },
     "peerDependencies": {
         "@nestjs/common": "^11.1.11",
